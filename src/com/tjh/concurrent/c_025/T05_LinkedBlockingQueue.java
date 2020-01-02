@@ -1,8 +1,8 @@
 package com.tjh.concurrent.c_025;
 
 import java.util.Random;
-import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class T05_LinkedBlockingQueue {
 
-    static BlockingDeque<String> queue = new LinkedBlockingDeque<>();
+    static BlockingQueue<String> queue = new LinkedBlockingQueue<>();
     static Random r = new Random();
 
     public static void main(String[] args) {

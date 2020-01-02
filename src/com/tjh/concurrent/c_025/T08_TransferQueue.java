@@ -3,7 +3,7 @@ package com.tjh.concurrent.c_025;
 import java.util.concurrent.LinkedTransferQueue;
 
 /**
- * transfer队列 马上消费的队列
+ * transfer队列 马上消费的队列(也即容量为0)
  */
 public class T08_TransferQueue {
 
